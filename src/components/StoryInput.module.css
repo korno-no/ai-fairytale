@@ -1,0 +1,34 @@
+
+.storyInput {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 640px;
+}
+
+.storyInputTextarea {
+  resize: vertical;
+  flex: 1;
+  min-height: 4rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #c5b8ff;
+  font: inherit;
+}
+
+.storyInputButton {
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  border: none;
+  background: #6d5dfc;
+  color: white;
+  cursor: pointer;
+  font: inherit;
+}
+
+.storyInputButton:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+

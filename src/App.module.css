@@ -1,0 +1,51 @@
+.appRoot {
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  background-size: 70% 104%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.appTitle {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.appLayout {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.storyArea {
+  flex: 1;
+  min-height: 0; 
+  overflow-y: auto;
+  padding: 1rem;
+  max-width: 640px;
+  }
+
+.inputArea {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+  flex-shrink: 0; 
+}
+
+.inputArea > * {
+  width: 100%;
+  max-width: 640px;
+}
+
+
+
